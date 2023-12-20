@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Montserrat:wght@600&family=Roboto+Slab:wght@500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FDF0E9
+}
+
+li {
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #F3D1BF;
+}
+
+h1 {
+    margin: 52px 192px 0px 136px;
+    color: var(--Text_Dark_Accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 38px 0px 38px 48px;
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+ul {
+    margin: 80px 0px 130px 134px;
+    display: flex;
+    list-style-type: none;
+    width: 391px;
+    height: 192px;
+}
